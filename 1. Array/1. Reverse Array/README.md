@@ -3,7 +3,9 @@
 > Write a program to reverse an array or string
 
 [link](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)
+
 Level: Basic
+
 Source: GFG
 
 ## Two Pointer Approach
@@ -24,6 +26,7 @@ string reverseWord(string str){
 ```
 
 Time Complexity: $O(n)$
+
 Space Complexity: $O(1)$
 
 ## Naive Approach
@@ -45,6 +48,7 @@ string reverseWord(string str){
 ```
 
 Time Complexity: $O(n)$
+
 Space Complexity: $O(n)$
 
 ## Using STL
@@ -57,4 +61,5 @@ string reverseWord(string str){
 ```
 
 Time Complexity: $O(n)$
+
 Space Complexity: $O(1)$

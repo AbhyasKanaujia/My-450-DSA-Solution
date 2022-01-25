@@ -3,7 +3,9 @@
 > Write a C function to return minimum and maximum in an array. Your program should make the minimum number of comparisons.
 
 [link](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
+
 Level: Basic
+
 Source: GFG
 
 ## Linear Search
@@ -32,7 +34,9 @@ MinMax findMinMax(int arr[], int n){
 ```
 
 Time Complexity: $O(n)$
+
 Space Complexity: $O(1)$
+
 Number of comparisons: $n$
 
 ## Tournament Selection
@@ -62,5 +66,7 @@ MinMax findMinMax(int arr[], int low, int high) {
 ```
 
 Time Complexity: $O(n)$
+
 Space Complexity: $O(1)$
+
 Number of comparisons: $
