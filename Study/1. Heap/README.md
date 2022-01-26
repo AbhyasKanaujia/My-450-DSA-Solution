@@ -1,4 +1,6 @@
-# HeaSource: [2.6.3 Heap - Heap Sort - Heapify - Priority Queues - Abdul Bari](https://youtu.be/HqPJF2L5h9U)
+# Heap
+
+Source: [2.6.3 Heap - Heap Sort - Heapify - Priority Queues - Abdul Bari](https://youtu.be/HqPJF2L5h9U)
 
 Heap is a special type of complete and full binary tree in which every node is greater than or equal to its children.
 
@@ -28,7 +30,13 @@ Heap is a special type of complete and full binary tree in which every node is g
 
 ## Heapify
 
+Source: [L-3.11: Build Heap in O(n) time complexity | Heapify Method | Full Derivation with example by **Gate Smasher**
+](https://www.youtube.com/watch?v=8noP3YjjJCM)
+
 Time Complexity: $O(n)$
+
+- Leaf nodes are not compared with their children. The number of leaf nodes is $\frac{n}{2}$. Thus we get to ignore $\frac{n}{2}$ comparisons which makes the algorithm fast.
+- 
 
 ## Priority Queues
 
