@@ -25,9 +25,9 @@ string reverseWord(string str){
 }
 ```
 
-Time Complexity: $O(n)$
+Time Complexity: <!-- $O(n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n)">
 
-Space Complexity: $O(1)$
+Space Complexity: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter:invert();" src="https://render.githubusercontent.com/render/math?math=O(1)">
 
 ## Naive Approach
 
@@ -47,9 +47,9 @@ string reverseWord(string str){
 }
 ```
 
-Time Complexity: $O(n)$
+Time Complexity: <!-- $O(n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n)">
 
-Space Complexity: $O(n)$
+Space Complexity: <!-- $O(n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n)">
 
 ## Using STL
 
@@ -60,6 +60,6 @@ string reverseWord(string str){
 }
 ```
 
-Time Complexity: $O(n)$
+Time Complexity: <!-- $O(n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n)">
 
-Space Complexity: $O(1)$
+Space Complexity: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(1)">
