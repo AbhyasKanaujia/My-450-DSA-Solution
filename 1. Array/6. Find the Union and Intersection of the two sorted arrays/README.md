@@ -16,14 +16,14 @@ Explanation:
   of both arrays. So count is 5.
 ```
 
-Expected Time Complexity : $O((n+m)\log(n+m))$
+Expected Time Complexity : <!-- $O((n+m)\log(n+m))$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O((n%2Bm)%5Clog(n%2Bm))">
 
-Expected Auxillary Space : $O(n+m)$
+Expected Auxillary Space : <!-- $O(n+m)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n%2Bm)">
 
 Constraints:
 
-- $1 ≤ n, m ≤ 10^5$
-- $0 ≤ a[i], b[i] < 10^5$
+- <!-- $1 ≤ n, m ≤ 10^5$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=1%20%E2%89%A4%20n%2C%20m%20%E2%89%A4%2010%5E5">
+- <!-- $0 ≤ a[i], b[i] < 10^5$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=0%20%E2%89%A4%20a%5Bi%5D%2C%20b%5Bi%5D%20%3C%2010%5E5">
 
 [Link](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)
 

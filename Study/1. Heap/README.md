@@ -33,7 +33,7 @@ Heap is a special type of complete and full binary tree in which every node is g
 Source: [L-3.11: Build Heap in O(n) time complexity | Heapify Method | Full Derivation with example by **Gate Smasher**
 ](https://www.youtube.com/watch?v=8noP3YjjJCM)
 
-Time Complexity: $O(n)$
+Time Complexity: <!-- $O(n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n)">
 
 - Leaf nodes are not compared with their children. The number of leaf nodes is $\frac{n}{2}$. Thus we get to ignore $\frac{n}{2}$ comparisons which makes the algorithm fast.
 - 

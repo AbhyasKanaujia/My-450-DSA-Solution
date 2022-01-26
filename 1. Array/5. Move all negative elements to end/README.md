@@ -10,9 +10,9 @@ Output :
   1  3  2  11  6  -1  -7  -5
 ```
 
-Expected Time Complexity: $O(N)$ ✅
+Expected Time Complexity: <!-- $O(N)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(N)"> ✅
 
-Expected Auxiliary Space: $O(N)$ ✅
+Expected Auxiliary Space: <!-- $O(N)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(N)"> ✅
 
 [Link](https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1)
 
@@ -49,9 +49,9 @@ void segregateElements(int arr[],int n) {
 
 ```
 
-Time Complexity: $O(N)$ ✅
+Time Complexity: <!-- $O(N)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(N)"> ✅
 
-Space Complexity: $O(N)$ ✅
+Space Complexity: <!-- $O(N)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(N)"> ✅
 
 ## Failed Attempts
 
@@ -63,9 +63,9 @@ Space Complexity: $O(N)$ ✅
    2. `j--` until `arr[j] <= 0`
    3. Swap `arr[i]` and `arr[j]`
 
-Time Complexity: $O(N)$
+Time Complexity: <!-- $O(N)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(N)">
 
-Space Complexity: $O(1)$
+Space Complexity: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(1)">
 
 #### Reason for Failure
 

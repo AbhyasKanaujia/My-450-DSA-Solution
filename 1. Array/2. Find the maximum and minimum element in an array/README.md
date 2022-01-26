@@ -33,11 +33,11 @@ MinMax findMinMax(int arr[], int n){
 }
 ```
 
-Time Complexity: $O(n)$
+Time Complexity: <!-- $O(n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n)">
 
-Space Complexity: $O(1)$
+Space Complexity: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(1)">
 
-Number of comparisons: $n$
+Number of comparisons: <!-- $n$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=n">
 
 ## Tournament Selection
 
@@ -65,8 +65,7 @@ MinMax findMinMax(int arr[], int low, int high) {
 }
 ```
 
-Time Complexity: $O(n)$
+Time Complexity: <!-- $O(n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n)">
 
-Space Complexity: $O(1)$
+Space Complexity: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(1)">
 
-Number of comparisons: $

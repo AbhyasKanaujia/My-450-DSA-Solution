@@ -12,14 +12,14 @@ Explanation:
   0s 1s and 2s are segregated into ascending order.
 ```
 
-Expected Time Complexity: $O(N)$
+Expected Time Complexity: <!-- $O(N)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(N)">
 
-Expected Auxiliary Space: $O(1)$
+Expected Auxiliary Space: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(1)">
 
 Constraints:
 
-- $1 \le N \le 10^6$
-- $0 \le A[i] \le 2$
+- <!-- $1 \le N \le 10^6$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=1%20%5Cle%20N%20%5Cle%2010%5E6">
+- <!-- $0 \le A[i] \le 2$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=0%20%5Cle%20A%5Bi%5D%20%5Cle%202">
 
 [Link](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/1)
 
@@ -31,9 +31,9 @@ Difficulty: Easy
 
 1. Sort the array
 
-Time Complexity: $O(N \log N)$ ❌
+Time Complexity: <!-- $O(N \log N)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(N%20%5Clog%20N)"> ❌
 
-Space Complexity: $O(1)$ ✅
+Space Complexity: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(1)"> ✅
 
 ## Count and build array
 
@@ -61,9 +61,9 @@ void sort012(int a[], int n)
 }
 ```
 
-Time Complexity: $O(N)$ ✅
+Time Complexity: <!-- $O(N)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(N)"> ✅
 
-Space Complexity: $O(1)$ ✅
+Space Complexity: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(1)"> ✅
 
 ## Three Pointer Approach
 
@@ -92,6 +92,6 @@ void sort012(int a[], int n)
 }
 ```
 
-Time Complexity: $O(N)$ ✅
+Time Complexity: <!-- $O(N)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(N)"> ✅
 
-Space Complexity: $O(1)$ ✅
+Space Complexity: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(1)"> ✅

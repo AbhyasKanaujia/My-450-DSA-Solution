@@ -15,15 +15,15 @@ Explanation :
   3rd smallest element in the given array is 7.
 ```
 
-Expected Time Complexity: $O(n)$
+Expected Time Complexity: <!-- $O(n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n)">
 
-Expected Auxiliary Space: $O(1)$
+Expected Auxiliary Space: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(1)">
 
 Constraints:
 
-$1 \le N \le 105\\
-1 \le arr[i] \le 105\\
-1 \le K \le N$
+- <!-- $1 \le N \le 105$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=1%20%5Cle%20N%20%5Cle%20105">
+- <!-- $1 \le arr[i] \le 105$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=1%20%5Cle%20arr%5Bi%5D%20%5Cle%20105">
+- <!-- $1 \le K \le N$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=1%20%5Cle%20K%20%5Cle%20N">
 
 [Link](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)
 
@@ -43,9 +43,9 @@ int kthSmallest(int arr[], int l, int r, int k) {
 }
 ```
 
-Time Complexity: $O(n \log n)$ ❌
+Time Complexity: <!-- $O(n \log n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n%20%5Clog%20n)"> ❌
 
-Space Complexity: $O(1)$
+Space Complexity: <!-- $O(1)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(1)">
 
 ## Using Set
 
@@ -64,9 +64,9 @@ int kthSmallest(int arr[], int l, int r, int k) {
 }
 ```
 
-Time Complexity: $O(log n)$ in average case and $O(n)$ in worst case. ❌
+Time Complexity: <!-- $O(log n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(log%20n)"> in average case and <!-- $O(n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n)"> in worst case. ❌
 
-Space Complexity: $O(n)$ ❌
+Space Complexity: <!-- $O(n)$ --> <img style="transform: translateY(0.1em); filter: invert();" src="https://render.githubusercontent.com/render/math?math=O(n)"> ❌
 
 ## Using Min Heap
 
