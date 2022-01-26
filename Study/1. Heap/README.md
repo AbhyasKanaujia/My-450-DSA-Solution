@@ -32,4 +32,39 @@ Time Complexity: $O(n)$
 
 ## Priority Queues
 
-Priority queues are a data structure that can be used to implement a priority queue.
+Priority queues is a data structure that allows you to insert elements in a certain order. This is implemented using a heap.
+
+### Priority Queue in C++
+
+Source: [std::priority_queue in C++](https://www.youtube.com/watch?v=JSqznrzWGvc)
+
+- Gives largest/smallest element in $O(1)$ time.
+- By default vector is used as the underlying data structure.
+- Insertion and deletion takes $O(log n)$ time.
+- Functions available are:
+  - `push` to insert an element.
+  - `pop` to delete the element.
+  - `top` to get the top element.
+  - `empty` to check if the queue is empty.
+  - `size` to get the size of the queue.
+
+#### Example
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   priority_queue<int> pq;
+
+   for(int x: {1,8,2,5,3,6,4,7})
+      pq.push(x);
+
+   while(!pq.empty()) {
+      cout << pq.top() << " ";
+      pq.pop();
+   }
+
+   return 0;
+}
+```
